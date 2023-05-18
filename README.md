@@ -4,7 +4,7 @@
 |![](./assets/mobile.png)|![](./assets/img.png)|
 |                     |                        |
 
-[Clique aqui]() para acessar o site!
+[Clique aqui](https://vini01072003.github.io/Site-API/) para acessar o site!
 
 ## **Sobre** 
 Site que faz uma busca por heróis em uma API de [Movies](https://www.themoviedb.org/) e mostra seus detalhes em uma página web. O objetivo deste projeto é colocar em prática os conhecimentos adquiridos no curso do [Senai Jandira](https://jandira.sp.senai.br/) na criação de web sites e adquirir conhecimento sobre outras coisas das quais não foram abordadas no curso.
