@@ -5,13 +5,17 @@ const BASE_URL_IMAGE = {
   small: 'https://image.tmdb.org/t/p/w500'
 }
 
+//Vatiavel que recebe o array de movies
 const movies = []
 let movieActive = ''
+//Variavel que pega o elemento filmes pelo id
 const moviesElement = document.getElementById('movies')
 
+//Função que me retorna a API
 function getUrlMovie(movieId) {
   return `https://api.themoviedb.org/3/movie/${movieId}?api_key=${API_KEY}&language=${API_LANGUAGE}`
 }
+//função que seleciona o botão de menu
 
 function changeButtonMenu() {
   const button = document.querySelector('.button__menu')
@@ -84,8 +88,13 @@ function createImageMovie(movieImage, movieTitle) {
   return divImageMovie
 }
 
+//Função que cria a lista de filmes
+
 function addMovieInList(movie) {
+  //Cria a lista no HTML
   const movieElement = document.createElement('li')
+  
+  //Adiciona os filmes indicado pelo parâmetro movie na lista de filmes
   movieElement.classList.add('movie')
 
   movieElement.setAttribute('id', movie.id)
